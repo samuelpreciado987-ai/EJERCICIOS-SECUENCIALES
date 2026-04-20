@@ -1,0 +1,16 @@
+Algoritmo CalcularNotaExamen
+	Definir correctas, incorrectas, en_blanco Como Entero
+	Definir puntaje_final Como Entero
+	
+	Escribir "Ingrese la cantidad de respuestas CORRECTAS:"
+	Leer correctas
+	Escribir "Ingrese la cantidad de respuestas INCORRECTAS:"
+	Leer incorrectas
+	Escribir "Ingrese la cantidad de respuestas EN BLANCO:"
+	Leer en_blanco
+	
+	// Usamos paréntesis en el (-1) para que PSeInt no se confunda
+	puntaje_final <- (correctas * 5) + (incorrectas * (-1))
+	
+	Escribir "El puntaje total obtenido es: ", puntaje_final
+FinAlgoritmo
