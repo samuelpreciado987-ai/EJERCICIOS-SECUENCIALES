@@ -1,0 +1,11 @@
+  Algoritmo CALCULR_MEDIDA
+	Escribir "BINBENIDO AL PROGRAMA QUE CCALCULA LA MEDIDA DE 3 NUMEROS"
+	Escribir "DIGITE A"
+	Leer A
+	Escribir "DIGIT B"
+	Leer B
+	Escribir "DIGITE C" 
+	Leer C
+	MEDIA <- ( A + B + C ) / 3 
+	Escribir  "LA MEDIDA DE TUS 3 DIGITOSS S DE " ,MEDIA 
+FinAlgoritmo
